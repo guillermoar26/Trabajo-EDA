@@ -15,7 +15,7 @@ El juego en sí consta de tres postes verticales. En uno de ellos se apila, una 
 
 La complejidad de este algoritmo o problema matemático viene dada por el número de discos. El número de movimientos necesarios para mover n discos de un poste a otro es 2^n-1. Por lo tanto, para 3 discos, se necesitarán (como mínimo) 7 movimientos para resolver el rompecabezas.
 
-La solución para 64 se discos se asemeja mucho a la leyenda del inventor del ajedrez. Cuando el inventor presentó el juego a su rey, pidió un grano de trigo por la primera casilla, dos por la segunda y así sucesivamente. Si calculamos el número de granos de trigo en total obtenemos la solución al rompecabezas: un total de _18.446.744.073.709.551.615_ movimientos (o granos de trigo) Y mucho tiempo, desde luego. 
+La solución para 64 se discos se asemeja mucho a la leyenda del inventor del ajedrez. Cuando el inventor presentó el juego a su rey, pidió un grano de trigo por la primera casilla, dos por la segunda y así sucesivamente. Si calculamos el número de granos de trigo en total, obtenemos la solución al enigma: un total de _18.446.744.073.709.551.615_ movimientos (o granos de trigo) Y mucho tiempo, desde luego. 
 
 ## Comparación del costo temporal  
 
