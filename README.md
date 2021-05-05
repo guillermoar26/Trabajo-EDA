@@ -6,9 +6,9 @@ Las Torres de Hanói es un rompecabezas o juego matemático, inventado en 1883 p
 
 El juego en sí consiste en tres postes verticales. En uno de ellos (que suele ser el primero) se apilan una serie de discos de tamaño decreciente (de abajo arriba), determinando así la complejidad de la solución. El juego consiste en pasar todos los discos de un poste a otro. Para ello, nos basamos en tres reglas.
 
-  1. Sólo se puede mover un discos a la vez, estando todos en los postes
-  2. Un disco de mayor tamaño no puede estar sobre otro de menor tamaño.
-  3. Sólo se puede desplazar el disco situado más arriba del poste.
+   1. Sólo se puede mover un discos a la vez, estando todos en los postes
+   2. Un disco de mayor tamaño no puede estar sobre otro de menor tamaño.
+   3. Sólo se puede desplazar el disco situado más arriba del poste.
 
 
 ## Complejidad y número de movimientos 
