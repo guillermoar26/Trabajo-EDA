@@ -27,8 +27,8 @@ En este caso, el algoritmo iterativo emplea un menor recurso de tiempo, mientras
 
 ### Recurso espacio
 
-El espacio para el parámetro para cada llamada es independiente de n, lo que significa que es constante. Por ende, el recurso espacio se define como O(n). Mientras que el recurso tiempo es exponencial, el recurso espacio se mantiene lineal. No obstante, el algortimo recursivo ocupa más espacio en memoria que su correspondiente iterativo, pues a medida que se va ejecutando abre más métodos. El algoritmo iterativo ocupa un menor espacio de memoria, pues se ejecuta menos veces. 
+El espacio de los parámetros para cada llamada es independiente de n, lo que significa que es constante. Por tanto, el recurso espacial se define como O(n).Si bien el recurso de tiempo es exponencial, el recurso espacio permanece lineal. Sim embargo, el algoritmo recursivo ocupa más espacio de memoria que su correspondiente iterativo, porque a medida que se ejecuta, abre más métodos. El algoritmo iterativo ocupa un menor espacio en la memoria, pues se ejecuta menos veces. 
 
 ### Conclusión
 
-En conlusión, el algoritmo recursivo suele ser más sencillo: expresa la solución de una manera más natural, aunque emplea un mayor recurso espacio-tiempo. Por otra parte, el algortimo iterativo obtiene una mayor eficiencia, expresado de una manera menos natural y empleando un menor recurso espacio-tiempo.
+En conclusión, el algoritmo recursivo suele ser más sencillo: expresa la solución de una manera más natural, aunque utiliza un mayor recurso espacio-tiempo. Por otro lado, el algoritmo iterativo obtiene una mayor eficiencia, de forma menos natural y empleando un menor recurso espacio-tiempo.
