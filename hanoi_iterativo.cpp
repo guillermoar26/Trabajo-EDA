@@ -1,16 +1,20 @@
 #include "hanoi_iterativo.h"
 
 int Hanoi_iterativo::moveDisk(std::stack<int> &principio, std::stack<int> &final) {
+    // Si el primer stack esta vacio, hacemos push del otro parámetro y borramos una unidad de este
     if (principio.empty()) {
         principio.push(final.top());
         final.pop();
         return 2;
     }
+    // Si el segundo stack esta vacio, hacemos push del otro parámetro y borramos una unidad de este
     else if (final.empty()) {
         final.push(principio.top());
         principio.pop();
         return 1;
     }
+    // Si ningun stack esta vacio, comparamos los tamaños
+    // Esto evita que un disco de radio 2 este encima de uno de menor tamaño por ejemplo
     else if (principio.top() < final.top()) {
         final.push(principio.top());
         principio.pop();
@@ -50,6 +54,7 @@ void Hanoi_iterativo::solve(int discos) {
                 check = moveDisk(pivote_inicial, pivote_auxiliar);
                 if (check == 1)
                     std::cout << "Mueve el disco " << pivote_auxiliar.top() << " de la barra A a la barra B " << "\n";
+                // Si no es posible, movemos el disco de la barra B a la barra A
                 else
                     std::cout << "Mueve el disco " << pivote_inicial.top() << " de la barra B a la barra A " << "\n";
             }
@@ -59,6 +64,7 @@ void Hanoi_iterativo::solve(int discos) {
                 check = moveDisk(pivote_inicial, pivote_final);
                 if (check == 1)
                     std::cout << "Mueve el disco " << pivote_final.top() << " de la barra A a la barra C " << "\n";
+                // Si no es posible, movemos el disco de la barra C a la barra A
                 else
                     std::cout << "Mueve el disco " << pivote_inicial.top() << " de la barra C a la barra A " << "\n";
             }
@@ -68,6 +74,7 @@ void Hanoi_iterativo::solve(int discos) {
                 check = moveDisk(pivote_auxiliar, pivote_final);
                 if (check == 1)
                     std::cout << "Mueve el disco " << pivote_final.top() << " de la barra B a la barra C " << "\n";
+                // Si no es posible, movemos el disco de la barra C a la barra B
                 else
                     std::cout << "Mueve el disco " << pivote_auxiliar.top() << " de la barra C a la barra B " << "\n";
             }
@@ -86,6 +93,7 @@ void Hanoi_iterativo::solve(int discos) {
                 check = moveDisk(pivote_inicial, pivote_final);
                 if (check == 1)
                     std::cout << "Mueve el disco " << pivote_final.top() << " de la barra A a la barra C " << "\n";
+                // Si no es posible, movemos el disco de la barra C a la barra A
                 else
                     std::cout << "Mueve el disco " << pivote_inicial.top() << " de la barra C a la barra A " << "\n";
             }
@@ -95,6 +103,7 @@ void Hanoi_iterativo::solve(int discos) {
                 check = moveDisk(pivote_inicial, pivote_auxiliar);
                 if (check == 1)
                     std::cout << "Mueve el disco " << pivote_auxiliar.top() << " de la barra A a la barra B " << "\n";
+                // Si no es posible, movemos el disco de la barra B a la barra A
                 else
                     std::cout << "Mueve el disco " << pivote_inicial.top() << " de la barra B a la barra A " << "\n";
             }
@@ -104,6 +113,7 @@ void Hanoi_iterativo::solve(int discos) {
                 check = moveDisk(pivote_auxiliar, pivote_final);
                 if (check == 1)
                     std::cout << "Mueve el disco " << pivote_final.top() << " de la barra B a la barra C " << "\n";
+                // Si no es posible, movemos el disco de la barra C a la barra B
                 else
                     std::cout << "Mueve el disco " << pivote_auxiliar.top() << " de la barra C a la barra B " << "\n";
             }
