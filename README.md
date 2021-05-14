@@ -17,6 +17,6 @@ La complejidad de este algoritmo o problema matemático viene dada por el númer
 
 La solución para 64 se discos se asemeja mucho a la leyenda del inventor del ajedrez. Cuando el inventor presentó el juego a su rey, pidió un grano de trigo por la primera casilla, dos por la segunda y así sucesivamente. Si calculamos el número de granos de trigo en total, obtenemos la solución al enigma: un total de _18.446.744.073.709.551.615_ movimientos (o granos de trigo) Y mucho tiempo, desde luego. 
 
-## Comparación del costo temporal  
+## Comparación del costo temporal
 
-![bc09a51d559748d0cc6abc9a72e8f1e9](https://user-images.githubusercontent.com/77279628/117082052-17dc8080-ad39-11eb-88a3-8aa673746cf0.png)
+![Captura de pantalla 2021-05-14 131550](https://user-images.githubusercontent.com/77279628/118263502-47fcef80-b4ae-11eb-857b-efa9ae56f855.png)
