@@ -1,6 +1,6 @@
 # Torres de Hánoi
 
-Las Torres de Hanói es un rompecabezas o juego matemático, inventado en 1883 por el matemático francés Édouard Lucas. Se trata de un problema muy recurrente en la ciencia de la computación, como introducción a la teoría de algoritmos. Pero, ¿cómo funciona?
+Las Torres de Hanói es un rompecabezas o juego matemático, inventado en 1883 por el matemático francés Édouard Lucas. Se trata de un problema muy recurrente en la ciencia de la computación, como introducción a la teoría de algoritmos. Pero, ¿Cómo funciona?
 
 ## Reglas del juego 
 
