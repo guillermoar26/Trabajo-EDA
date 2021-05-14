@@ -19,7 +19,7 @@ La solución para 64 se discos se asemeja mucho a la leyenda del inventor del aj
 
 ## Comparación del costo temporal
 
-![Captura de pantalla 2021-05-14 131550](https://user-images.githubusercontent.com/77279628/118263502-47fcef80-b4ae-11eb-857b-efa9ae56f855.png)
+![Captura de pantalla 2021-05-14 141519](https://user-images.githubusercontent.com/77279628/118269383-957d5a80-b4b6-11eb-90f0-2246bbfdae5e.png)
 
 ### Recurso tiempo
 
