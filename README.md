@@ -20,3 +20,15 @@ La solución para 64 se discos se asemeja mucho a la leyenda del inventor del aj
 ## Comparación del costo temporal
 
 ![Captura de pantalla 2021-05-14 131550](https://user-images.githubusercontent.com/77279628/118263502-47fcef80-b4ae-11eb-857b-efa9ae56f855.png)
+
+### Recurso tiempo
+
+En este caso, el algoritmo iterativo emplea un menor recurso de tiempo, mientras que el recursivo, que depende de la cantidad de entrada, por ende se demora más. A partir de la gráfica, podemos deducir que la complejidad del tiempo es exponencial, O(2^n) o O(a^n), siendo a una constante mayor que 1. 
+
+### Recurso espacio
+
+El espacio para el parámetro para cada llamada es independiente de n, lo que significa que es constante. Por ende, el recurso espacio se define como O(n). Mientras que el recurso tiempo es exponencial, el recurso espacio se mantiene lineal. No obstante, el algortimo recursivo ocupa más espacio en memoria que su correspondiente iterativo, pues a medida que se va ejecutando abre más métodos. El algoritmo iterativo ocupa un menor espacio de memoria, pues se ejecuta menos veces. 
+
+### Conclusión
+
+En conlusión, el algoritmo recursivo suele ser más sencillo: expresa la solución de una manera más natural, aunque emplea un mayor recurso espacio-tiempo. Por otra parte, el algortimo iterativo obtiene una mayor eficiencia, expresado de una manera menos natural y empleando un menor recurso espacio-tiempo.
