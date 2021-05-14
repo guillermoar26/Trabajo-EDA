@@ -23,7 +23,7 @@ La solución para 64 se discos se asemeja mucho a la leyenda del inventor del aj
 
 ### Recurso tiempo
 
-En este caso, el algoritmo iterativo emplea un menor recurso de tiempo, mientras que el recursivo, que depende de la cantidad de entrada, por ende se demora más. A partir de la gráfica, podemos deducir que la complejidad del tiempo es exponencial, O(2^n) o O(a^n), siendo a una constante mayor que 1. 
+En este caso, el algoritmo iterativo emplea un menor recurso de tiempo, mientras que el recursivo, que depende de la cantidad de entrada, por ende se demora más. A partir de la gráfica, podemos deducir que la complejidad del tiempo es exponencial, O(2^n) ó O(a^n), siendo a una constante mayor que 1. 
 
 ### Recurso espacio
 
