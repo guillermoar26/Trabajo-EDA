@@ -20,6 +20,7 @@ La solución para 64 se discos se asemeja mucho a la leyenda del inventor del aj
 ## Comparación del costo temporal
 
 ![Captura de pantalla 2021-05-16 004209](https://user-images.githubusercontent.com/77279628/118380102-53980580-b5d7-11eb-97f2-bf830f20088e.png)
+> Evaluación del costo temporal entre 1 y 15 discos. 
 
 ### Recurso tiempo
 
